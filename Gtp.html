@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Jungle Festival Pass</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(135deg, #0b3d1f, #1f7a3a);
+        padding: 20px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 420px;
+        background: #fff;
+        border-radius: 18px;
+        box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+        padding: 24px;
+        text-align: center;
+    }
+
+    .logo-img {
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin: 0 auto 10px;
+        display: block;
+        border: 3px solid #e9f5ea;
+    }
+
+    h1 {
+        font-size: 22px;
+        margin-bottom: 6px;
+        color: #1f7a3a;
+    }
+
+    .status {
+        margin: 10px 0 18px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #1faa3f;
+        background: #e9f8ed;
+        padding: 10px;
+        border-radius: 12px;
+    }
+
+    .info {
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    .info p {
+        margin: 8px 0;
+        font-size: 14px;
+        color: #333;
+    }
+
+    .label {
+        font-weight: bold;
+        color: #1f7a3a;
+    }
+
+    @media (max-width: 480px) {
+        .card {
+            padding: 18px;
+        }
+
+        h1 {
+            font-size: 20px;
+        }
+
+        .status {
+            font-size: 16px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <!-- LOGO -->
+    <img src="logo.png" alt="Jungle Festival Logo" class="logo-img">
+
+    <h1>Jungle Festival</h1>
+
+    <div class="status">✅ Allowed to Enter</div>
+
+    <div class="info">
+        <p><span class="label">Name:</span> Alex Johnson</p>
+        <p><span class="label">Pass ID:</span> JF-48291-AX</p>
+        <p><span class="label">Event Date:</span> 24 June 2026</p>
+    </div>
+
+</div>
+
+</body>
+</html>
